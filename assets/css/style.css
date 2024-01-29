@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #ffffff url("../img/bg2.jpeg") top right no-repeat; /*-- was black 040404 */ 
+  background: #ffffff url("../img/bg4.jpeg") top right no-repeat; /*-- was black 040404 */ 
   background-size: cover;
   left: 0;
   right: 0;
