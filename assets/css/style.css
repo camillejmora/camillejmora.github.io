@@ -11,8 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #ffffff; /* was black #040404 */
-  color: #000; /* was white #fff */
+  background-color: #ffffff !important; /* was black #040404 */
+  color: #000 !important; /* was white #fff */
   position: relative;
   background: transparent;
 }
@@ -82,7 +82,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #fff;
+  color: #000; /* was #fff */
   line-height: 1;
   display: inline-block;
 }
@@ -90,11 +90,11 @@ h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #000; /* was rgba(255, 255, 255, 0.8) */
 }
 
 #header h2 span {
-  color: #fff;
+  color: #000; /* was #fff */
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
 }
@@ -115,7 +115,7 @@ h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: #fff; 
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -155,7 +155,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(255, 255, 255, 0.1); */ was rgba(0, 0, 0, 0.9); */
 }
 
 #header.header-top .social-links,
