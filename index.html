@@ -3,45 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camille Justine Mora - About me</title>
+    <title>Camille Justine Mora</title>
     <style>
-        .hero-section {
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background-color: #ffffff;
             text-align: center;
-            padding: 50px;
-            background-color: #f8f8f8;
+            padding: 50px 0;
         }
-
-        .split-section {
+        .hero h1 {
+            color: #E96F3B;
+        }
+        .hero .highlight {
+            background-color: #ffccff; /* The color behind "Camille" */
+            padding: 0 10px; /* Adjust padding as needed */
+            color: #A8D0DB;
+        }
+        .hero p {
+            color: #666666;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .split {
             display: flex;
-            padding: 20px;
+            justify-content: space-between;
+            margin-top: 20px;
         }
-
-        .left-side {
-            flex: 1; /* 1/3rd of the space */
+        .left {
+            flex: 1;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+        .right {
+            flex: 2;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+        .aboutme {
+            background-color: #A8D0DB;
+            color: #666666;
+            margin: 20px 0;
             padding: 10px;
         }
-
-        .right-side {
-            flex: 2; /* 2/3rds of the space */
+        .aboutme .highlight {
+            background-color: #ffccff; /* The color behind "Camille" */
+            padding: 0 10px; /* Adjust padding as needed */
+            color: #A8D0DB;
+        }
+        .testimonial {
+            background-color: #f9f9f9;
+            border-left: 5px solid #ff00cc;
+            margin: 20px 0;
             padding: 10px;
+        }
+        .testimonial img {
+            width: 50px;
+            height: 50px;
+            background-color: #cccccc;
+            margin-right: 10px;
+        }
+        .testimonial p {
+            color: #333333;
         }
     </style>
 </head>
 <body>
-    <div class="hero-section">
+    <div class="hero">
         <h1>Camille Justine Mora</h1>
-        <p>Your tagline goes here</p>
+        <p>PhD Candidate. Researcher.</p>
     </div>
+    
+    <div class="aboutme">
+        <!-- About Me Section -->
+        <h2>About Me</h2>
+        <p>It's hard to come across a standout like Camille...</p>
 
-    <div class="split-section">
-        <div class="left-side">
-            <h2>Research</h2>
+        <!-- Research Section -->
+        <div class="split">
+            <div class="left">
+                <h2>My Research</h2>
+            </div>
+            <div class="right">
+                <p>Toward a modern slavery and emissions assessment framework...</p>
+            </div>
         </div>
-        <div class="right-side">
-            <p>
-                This is placeholder text. Here you can add details about your research, your methods, your findings, or any other relevant information. Feel free to replace this with your actual content.
-            </p>
+
+        <!-- Education Section -->
+        <div class="split">
+            <div class="left">
+                <h2>My Education</h2>
+                <p>Masters of Sustainability...</p>
+            </div>
+            <div class="right">
+                <!-- Place for additional content -->
+            </div>
         </div>
+
+        <!-- Work Experience Section -->
+        <h2>Work Experience</h2>
+        <div class="split">
+            <div class="left">
+                <p>Research Assistant...</p>
+            </div>
+            <div class="right">
+                <p>Research Assistant...</p>
+            </div>
+        </div>
+        
+        <!-- Testimonials Section -->
+        <h2>People Who Work With Me Say</h2>
+        <div class="testimonial">
+            <img src="placeholder-image.jpg" alt="Profile Picture">
+            <p>"It's hard to come across a standout like Camille..."</p>
+            <p>Bob Zucco | Senior Account Manager, FreshForm</p>
+        </div>
+
+        <!-- Repeat testimonials as needed -->
+        
     </div>
 </body>
 </html>
