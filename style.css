@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Styling for h1 */
 h1 {
     font-size: 40px;
