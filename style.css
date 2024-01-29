@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-/* CSS Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Styling for h1 */
 h1 {
     font-size: 40px;
@@ -55,7 +48,13 @@ body {
 /* Hero section styles */
 .hero {
     background-color: #e6e6e6;
-    text-align: center;
+    text-align: left;
     padding: 50px 0;
     width: 100%;
+}
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
