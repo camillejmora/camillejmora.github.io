@@ -15,7 +15,7 @@ body {
         font-size: 14px;
         margin: 0;
         font-family: Arial Black;
-    }
+    /* }
     padding {
         padding: 20px; /* This adds a padding of 20px to the entire body content */
     }
