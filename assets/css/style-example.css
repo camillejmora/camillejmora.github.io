@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: "/img/bg2.jpeg";
+  background: "assets/img/bg2.jpeg";
   background-size: cover;
   left: 0;
   right: 0;
@@ -1187,4 +1187,5 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
 }
