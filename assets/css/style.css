@@ -27,7 +27,6 @@ body::before {
   top: 0;
   height: 100vh;
   z-index: -1;
-  padding-top: 80px; /* Adjust this value based on the height of your navbar */
 }
 
 @media (min-width: 1024px) {
@@ -75,7 +74,7 @@ h6 {
 }
 
 #header h1 {
-  font-size: 48px;
+  font-size: 80px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -91,7 +90,7 @@ h6 {
 }
 
 #header h2 {
-  font-size: 24px;
+  font-size: 36px;
   margin-top: 20px;
   color: #000; /* was rgba(255, 255, 255, 0.8) */
 }
@@ -99,7 +98,7 @@ h6 {
 #header h2 span {
   color: #000; /* was #fff */
   border-bottom: 2px solid #ff7530; /* was 18d26e */
-  padding-bottom: 6px;
+  padding-bottom: 12px; /* was 6px */
 }
 
 #header img {
@@ -127,7 +126,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background:  #ff7530; /* was 18d26e */
+  background: #ff7530; /* was 18d26e */
 }
 
 @media (max-width: 992px) {
@@ -148,10 +147,6 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  #header .break {
-  display: block; /* This will make the span start on a new line */
   }
 } 
 /* Header Top */
@@ -186,6 +181,9 @@ h6 {
 
 #header.header-top .navbar {
   margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure navbar stays on top of other content */
 }
 
 @media (max-width: 768px) {
@@ -207,9 +205,6 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* Ensure navbar stays on top of other content */
 }
 
 .navbar ul {
@@ -441,7 +436,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color:  #ff7530; /* was 18d26e */
+  color: #ff7530; /* was 18d26e */
   line-height: 0;
 }
 
@@ -461,7 +456,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(62, 62, 62, 0.08)
 }
 
 .counts .count-box i {
@@ -668,7 +663,7 @@ section .container {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgba(182, 227, 255, 0.15); /* was white */
+  background: rgb(135, 135, 135); /* was white */
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
