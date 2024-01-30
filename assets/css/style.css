@@ -395,7 +395,7 @@ section .container {
   width: 120px;
   height: 5px;
   display: inline-block;
-  background: #c7d9ff;
+  background: #ffc3a4;
   margin: 4px 10px;
 }
 
@@ -529,7 +529,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.08);
+  background: #ffc3a4;
   transition: ease-in-out 0.3s;
 }
 
@@ -699,7 +699,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: rgba(204, 204, 204, 0.1);
+  background: rgb(225, 225, 225);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
 }
