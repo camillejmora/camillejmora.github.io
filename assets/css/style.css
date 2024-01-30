@@ -154,11 +154,11 @@ h6 {
 /* Header Top */
 #header.header-top {
   height: 80px;
-  position: fixed;
+  position: sticky; /* was fixed */
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(3, 3, 3, 0.1); /* was rgba(0, 0, 0, 0.9) */
+  background: rgba(255, 246, 246, 0.1); /* was rgba(0, 0, 0, 0.9) */
 }
 
 #header.header-top .social-links,
@@ -204,7 +204,6 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
-  background-color: #ff7530;
 }
 
 .navbar ul {
@@ -251,7 +250,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color:  #000000; /* was 18d26e */
+  background-color: #000000; /* was 18d26e */
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
