@@ -27,6 +27,7 @@ body::before {
   top: 0;
   height: 100vh;
   z-index: -1;
+  padding-top: 80px; /* Adjust this value based on the height of your navbar */
 }
 
 @media (min-width: 1024px) {
@@ -36,12 +37,12 @@ body::before {
 }
 
 a {
-  color: #008ffd; /* was 18d26e */
+  color: #ff7530;; /* was 18d26e */
   text-decoration: none;
 }
 
 a:hover {
-  color: #95f1ff;
+  color: #ff7530;
   text-decoration: none;
 }
 
@@ -97,7 +98,7 @@ h6 {
 
 #header h2 span {
   color: #000; /* was #fff */
-  border-bottom: 2px solid #008ffd; /* was 18d26e */
+  border-bottom: 2px solid #ff7530; /* was 18d26e */
   padding-bottom: 6px;
 }
 
@@ -126,7 +127,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background:  #008ffd; /* was 18d26e */
+  background:  #ff7530; /* was 18d26e */
 }
 
 @media (max-width: 992px) {
@@ -206,6 +207,9 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure navbar stays on top of other content */
 }
 
 .navbar ul {
@@ -252,7 +256,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color:  #008ffd; /* was 18d26e */
+  background-color:  #ff7530; /* was 18d26e */
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -416,7 +420,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color:  #008ffd; /* was 18d26e */
+  color:  #ff7530; /* was 18d26e */
 }
 
 .about-me .content ul {
@@ -437,7 +441,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color:  #008ffd; /* was 18d26e */
+  color:  #ff7530; /* was 18d26e */
   line-height: 0;
 }
 
@@ -468,7 +472,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color:  #008ffd; /* was 18d26e */
+  color:  #ff7530; /* was 18d26e */
   border-radius: 50px;
   line-height: 0;
 }
@@ -520,7 +524,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color:  #008ffd; /* was 18d26e */
+  background-color: #ff7530; /* was 18d26e */
 }
 
 /*--------------------------------------------------------------
@@ -631,7 +635,7 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color:  #008ffd; /* was 18d26e */
+  background-color: #ff7530; /* was 18d26e */
 }
 
 /*--------------------------------------------------------------
@@ -658,7 +662,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Archivo Black", sans-serif;
-  color:  #008ffd; /* was 18d26e */
+  color: #ff7530; /* was 18d26e */
   margin-bottom: 10px;
 }
 
@@ -691,8 +695,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background:  #008ffd; /* was 18d26e */
-  border: 2px solid  #008ffd; /* was 18d26e */
+  background: #ff7530; /* was 18d26e */
+  border: 2px solid #ff7530; /* was 18d26e */
 }
 
 /*--------------------------------------------------------------
@@ -709,7 +713,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background:  #008ffd; /* was 18d26e */
+  background: #ff7530; /* was 18d26e */
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -754,8 +758,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background:  #008ffd; /* was 18d26e */
-  border-color:  #008ffd; /* was 18d26e */
+  background: #ff7530; /* was 18d26e */
+  border-color: #ff7530; /* was 18d26e */
 }
 
 .services .icon-box:hover .icon {
@@ -763,11 +767,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color:  #008ffd; /* was 18d26e */
+  color: #ff7530; /* was 18d26e */
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #ff7530;
 }
 
 .services .icon-box:hover h4 a,
@@ -808,7 +812,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #008ffd; /* was 18d26e */
+  background: #ff7530; /* was 18d26e */
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1002,7 +1006,7 @@ section .container {
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color:  #008ffd; /* was 18d26e */
+  background-color: #ff7530; /* was 18d26e */
 }
 
 /*--------------------------------------------------------------
@@ -1017,7 +1021,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color:  #008ffd; /* was 18d26e */
+  color: #ff7530; /* was 18d26e */
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1054,7 +1058,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color:  #008ffd; /* was 18d26e */
+  color: #ff7530; /* was 18d26e */
 }
 
 .contact .php-email-form {
@@ -1078,7 +1082,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background:  #008ffd; /* was 18d26e */
+  background: #ff7530; /* was 18d26e */
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1098,7 +1102,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid  #008ffd; /* was 18d26e */
+  border: 3px solid #ff7530; /* was 18d26e */
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1140,7 +1144,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background:  #008ffd; /* was 18d26e */
+  background: #ff7530; /* was 18d26e */
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1149,7 +1153,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #ff7530;
 }
 
 @keyframes animate-loading {
@@ -1186,7 +1190,7 @@ section .container {
 }
 
 .credits a {
-  color:  #008ffd; /* was 18d26e */
+  color: #ff7530; /* was 18d26e */
   transition: 0.3s;
 }
 
