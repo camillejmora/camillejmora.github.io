@@ -66,7 +66,6 @@ h6 {
   display: flex;
   align-items: center;
   position: -webkit-sticky; /* For Safari compatibility */
-  position: sticky;
   top: 0;
   z-index: 997;
   overflow-y: auto;
@@ -129,7 +128,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #ff7530; /* was 18d26e */
+  background: FFBF1A; /* was 18d26e */
 }
 
 @media (max-width: 992px) {
@@ -205,6 +204,7 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
+  background-color: #ff7530;
 }
 
 .navbar ul {
