@@ -128,7 +128,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: FFBF1A; /* was 18d26e */
+  background: #FFBF1A; /* was 18d26e */
 }
 
 @media (max-width: 992px) {
