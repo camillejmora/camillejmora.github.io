@@ -207,7 +207,8 @@ h6 {
   margin-top: 35px;
 }
 
-.navbar ul {
+.
+bar ul {
   margin: 0;
   padding: 0;
   display: flex;
@@ -268,14 +269,14 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #000;
 }
 
 /**
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -325,7 +326,7 @@ h6 {
   padding: 10px 0;
   overflow-y: auto;
   transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  /* border: 2px solid rgba(255, 255, 255, 0.2) */ 
 }
 
 .navbar-mobile li {
