@@ -65,6 +65,9 @@ h6 {
   height: 100vh;
   display: flex;
   align-items: center;
+  position: -webkit-sticky; /* For Safari compatibility */
+  position: sticky;
+  top: 0;
   z-index: 997;
   overflow-y: auto;
 }
@@ -202,9 +205,6 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* Ensure navbar stays on top of other content */
 }
 
 .navbar ul {
