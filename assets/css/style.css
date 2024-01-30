@@ -251,7 +251,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color:  #ff7530; /* was 18d26e */
+  background-color:  #000000; /* was 18d26e */
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
