@@ -205,6 +205,7 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
+  position: sticky;
 }
 
 .navbar ul {
@@ -545,11 +546,12 @@ section .container {
   padding: 0;
   line-height: 1;
   font-size: 16px;
+  font: "Archivo Black", sans-serif;
   color: #000;
 }
 
 .interests .icon-box:hover {
-  background: rgba(0, 0, 0, 0.12);
+  background: #ffe4d7
 }
 
 /*--------------------------------------------------------------
@@ -663,7 +665,7 @@ section .container {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #ffc3a4 /* was white */
+  background: #ffc3a4; /* was white */
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
