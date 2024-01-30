@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Welcome to my website!
 
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+Details on the adjusted template can be found here: 
+Website: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
