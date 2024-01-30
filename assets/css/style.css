@@ -181,9 +181,6 @@ h6 {
 
 #header.header-top .navbar {
   margin: 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* Ensure navbar stays on top of other content */
 }
 
 @media (max-width: 768px) {
@@ -206,6 +203,8 @@ h6 {
   padding: 0;
   margin-top: 35px;
   position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure navbar stays on top of other content */
 }
 
 .navbar ul {
