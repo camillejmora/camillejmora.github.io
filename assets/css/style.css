@@ -154,7 +154,7 @@ h6 {
 /* Header Top */
 #header.header-top {
   height: 80px;
-  position: sticky; /* was fixed */
+  position: fixed; /* was fixed */
   left: 0;
   top: 0;
   right: 0;
@@ -183,6 +183,8 @@ h6 {
 
 #header.header-top .navbar {
   margin: 0;
+  background: #ffe5a2; /* was rgba(0, 0, 0, 0.9) */
+  position: fixed;
 }
 
 @media (max-width: 768px) {
