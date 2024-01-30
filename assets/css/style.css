@@ -435,7 +435,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #ff7530; /* was 18d26e */
+  color: #000000; /* was 18d26e */
   line-height: 0;
 }
 
