@@ -456,7 +456,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgba(62, 62, 62, 0.08)
+  background: #ffc3a4;
 }
 
 .counts .count-box i {
@@ -476,13 +476,13 @@ section .container {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #fff;
+  color: #000;
 }
 
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
 
@@ -545,11 +545,11 @@ section .container {
   padding: 0;
   line-height: 1;
   font-size: 16px;
-  color: #fff;
+  color: #000;
 }
 
 .interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.12);
 }
 
 /*--------------------------------------------------------------
