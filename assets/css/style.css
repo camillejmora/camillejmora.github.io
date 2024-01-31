@@ -175,7 +175,7 @@ h6 {
 
 #header.header-top h1 {
   margin-right: auto;
-  font-size: 28px;
+  font-size: 20px; /* changed */
 }
 
 #header.header-top img {
@@ -281,7 +281,7 @@ h6 {
 /* Mobile Navigation  */
 .mobile-nav-toggle {
   color: #000000;
-  background: transparent;
+  /* background: transparent; */
   font-size: 20px;
   cursor: pointer;
   display: none;
