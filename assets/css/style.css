@@ -278,6 +278,12 @@ h6 {
   transition: 0.3s;
 }
 
+@media (max-width: 991px) {
+  .navbar {
+    margin: 20px 0 0 15px
+  }
+}
+
 /* Mobile Navigation  */
 /*
 .mobile-nav-toggle {
