@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff !important; /* was black #040404 */
   color: #000 !important; /* was white #fff */
   position: relative;
@@ -268,7 +268,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #36008d;
+  color: #d4b9ff;
+  background: #36008d;
 }
 
 /**
