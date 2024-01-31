@@ -128,19 +128,20 @@ h6 {
 
 #header .social-links a:hover {
   background: #36008d; /* was 18d26e */
+  color: #d4b9ff;
 }
 
 @media (max-width: 992px) {
   #header {
     /* Change the background image for mobile screens */
-    background: #ffffff url("../img/bg5.jpeg") top right no-repeat;
+    background: url("../img/bg5.jpeg") top right no-repeat;
     background-size: cover;
   }
 
   /* Adjustments for mobile header styles */
   #header h1 {
     font-size: 36px;
-    margin: 0; /* Reset margin */
+    margin: 20px 0 0 0; /* Reset margin */
     text-align: left; /* Center align text */
   }
 
@@ -456,7 +457,7 @@ section .container {
 }
 
 .about-me .content p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 20;
 }
 
 /*--------------------------------------------------------------
