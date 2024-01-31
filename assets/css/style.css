@@ -140,15 +140,15 @@ h6 {
   /* Adjustments for mobile header styles */
   #header h1 {
     font-size: 36px;
-    text-align: left;
-    margin: 0 20px;
+    margin: 0; /* Reset margin */
+    text-align: center; /* Center align text */
   }
 
   #header h2 {
     font-size: 20px;
     line-height: 30px;
-    text-align: left;
-    margin: 0 20px;
+    margin: 20px 0 0 0; /* Add top margin for spacing */
+    text-align: center; /* Center align text */
   }
 
   #header .social-links {
@@ -410,7 +410,7 @@ section .container {
   width: 120px;
   height: 5px;
   display: inline-block;
-  background: #ffc3a4;
+  background: #d4b9ff;
   margin: 4px 10px;
 }
 
