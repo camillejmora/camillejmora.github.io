@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -204,6 +204,7 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
+  color:#000
 }
 
 .navbar ul {
@@ -285,7 +286,7 @@ h6 {
   top: 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) { /* was 991 px */
   .mobile-nav-toggle {
     display: block;
   }
