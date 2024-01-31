@@ -175,7 +175,7 @@ h6 {
 
 #header.header-top h1 {
   margin-right: auto;
-  font-size: 20px; /* changed */
+  font-size: 28px; 
 }
 
 #header.header-top img {
@@ -199,7 +199,7 @@ h6 {
   }
 
   #header.header-top h1 {
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 
@@ -414,10 +414,16 @@ section .container {
 }
 
 /*----- About -----*/
-.about-me .content h3 {
+  .about-me .content h2 {
   font-weight: 700;
   font-size: 26px;
-  color: #000; /* was 18d26e */
+  color: #000; 
+  }
+
+  .about-me .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #000; 
 }
 
 .about-me .content ul {
