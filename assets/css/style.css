@@ -70,6 +70,13 @@ h6 {
   overflow-y: auto;
 }
 
+@media (max-width: 991px) {
+  #header {
+    /* Change the background image for mobile screens */
+    background: #ffffff url("../img/bg5.jpeg") top right no-repeat; 
+    background-size: cover;
+  }
+
 #header * {
   transition: ease-in-out 0.3s;
 }
@@ -204,7 +211,8 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
-  color:#000
+  color:#000;
+  background: #ffffff;
 }
 
 .navbar ul {
