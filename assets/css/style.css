@@ -280,9 +280,9 @@ h6 {
 
 /* Mobile Navigation  */
 .mobile-nav-toggle {
-  color: #d4b9ff;
-  background: #36008d;
-  font-size: 28px;
+  color: #000000;
+  background: transparent;
+  font-size: 20px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -552,13 +552,9 @@ section .container {
   color: #36008d;
 }
 
-/* .interests .icon-box:hover {
-  background: #eee5fd
-} */
-
 /* ----- Row Divs ----- */
 .row { 
-  padding-top: 10px; /* Adjust the value as needed */
+  padding-top: 10px; 
 }
 
 /* ------ Testimonials ------ */
@@ -637,7 +633,7 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #36008d; /* was 18d26e */
+  background-color: #36008d; 
 }
 
 /*--------------------------------------------------------------
@@ -664,13 +660,13 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Archivo Black", sans-serif;
-  color: #ff7530; /* was 18d26e */
+  color: #36008d; 
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #ffc3a4; /* was white */
+  background: #d4b9ff; /* was white */
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
