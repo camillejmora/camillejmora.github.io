@@ -188,7 +188,8 @@ h6 {
 
 @media (max-width: 768px) {
   #header.header-top {
-    height: 60px;
+    background: #ffffff url("../img/gg4.jpeg") top right no-repeat; 
+    background-size: cover; /* was height: 60px */
   }
 
   #header.header-top h1 {
@@ -271,6 +272,7 @@ h6 {
 .navbar li:hover>a {
   color: #d4b9ff;
   background: #36008d;
+  padding: 5px 0;
 }
 
 /**
@@ -288,7 +290,7 @@ h6 {
   top: 15px;
 }
 
-@media (max-width: 991px) { /* was 991 px */
+@media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
