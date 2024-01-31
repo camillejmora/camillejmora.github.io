@@ -131,6 +131,13 @@ h6 {
 }
 
 @media (max-width: 992px) {
+  #header {
+    /* Change the background image for mobile screens */
+    background: #ffffff url("../img/bg4.jpeg") top right no-repeat;
+    background-size: cover;
+  }
+
+  /* Adjustments for mobile header styles */
   #header h1 {
     font-size: 36px;
   }
@@ -148,11 +155,6 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  #header {
-    background: #ffffff url("../img/bg4.jpeg") top right no-repeat; 
-    background-size: cover
   }
 } 
 /* Header Top */
@@ -1024,9 +1026,9 @@ section .container {
   right: 0;
   left: 0;
   bottom: 0;
-  padding: 15px;
+  padding: 12px;
   text-align: right;
-  font-size: 13px;
+  font-size: 8px;
   color: #fff;
   z-index: 999999;
 }
@@ -1034,13 +1036,13 @@ section .container {
 @media (max-width: 992px) {
   .credits {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     background: rgba(0, 0, 0, 0.8);
   }
 }
 
 .credits a {
-  color: #ff7530; /* was 18d26e */
+  color: #36008d; /* was 18d26e */
   transition: 0.3s;
 }
 
