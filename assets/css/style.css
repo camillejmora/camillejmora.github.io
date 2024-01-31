@@ -282,10 +282,11 @@ h6 {
   transition: 0.3s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 745px) {
   .navbar {
-    margin: 20px 0 0 15px;
-    font-size: 14px;
+    font-size: 12px;
+    position: relative;
+    align-items: left;
   }
 }
 
