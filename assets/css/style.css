@@ -725,10 +725,6 @@ section .container {
 }
 
 .credits a {
-  color: #36008d; /* was 18d26e */
+  color: #36008d;
   transition: 0.3s;
 }
-
-/* .credits a:hover {
-  color: #fff;
-} */
