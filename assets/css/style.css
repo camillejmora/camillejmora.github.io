@@ -85,7 +85,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #000; /* was #fff */
+  color: #36008d; /* was #fff */
   line-height: 1;
   display: inline-block;
 }
@@ -188,8 +188,7 @@ h6 {
 
 @media (max-width: 768px) {
   #header.header-top {
-    background: #ffffff url("../img/gg4.jpeg") top right no-repeat; 
-    background-size: cover; /* was height: 60px */
+    height: 60px; /* was height: 60px */
   }
 
   #header.header-top h1 {
@@ -272,7 +271,7 @@ h6 {
 .navbar li:hover>a {
   color: #d4b9ff;
   background: #36008d;
-  padding: 5px 0;
+  padding: 5px 5px;
 }
 
 /**
@@ -293,6 +292,8 @@ h6 {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    background: #ffffff url("../img/gg4.jpeg") top right no-repeat; 
+    background-size: cover
   }
 
   .navbar ul {
