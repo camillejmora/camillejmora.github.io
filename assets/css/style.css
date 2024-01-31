@@ -9,8 +9,8 @@
 /* ----- General ------*/
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff !important; /* was black #040404 */
-  color: #000 !important; /* was white #fff */
+  /* background-color: #ffffff !important; /* was black #040404 */
+  color: #000 !important;
   position: relative;
   background: transparent;
 }
@@ -129,24 +129,33 @@ h6 {
 
 @media (max-width: 992px) {
   #header {
-    /* Change the background image for mobile screens */
     background: url("../img/bg5.jpeg") top right no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start */
+    padding-left: 20px; /* Add some padding */
   }
 
-  /* Adjustments for mobile header styles */
   #header h1 {
     font-size: 36px;
-    margin: 20px 0 0 0; /* Reset margin */
-    text-align: left; /* Center align text */
+    margin: 20px 0;
+    text-align: left !important;
   }
 
   #header h2 {
     font-size: 20px;
     line-height: 30px;
-    margin: 20px 0 0 0; /* Add top margin for spacing */
-    text-align: left; /* Center align text */
+    margin: 20px 0;
+    font-weight: 300;
+    text-align: left !important;
   }
+
+  #header .social-links {
+    margin-top: 15px;
+    align-items: flex-start;
+  }
+}
 
   #header .social-links {
     margin-top: 15px;
@@ -396,7 +405,6 @@ section .container {
   text-transform: uppercase;
   color: #000000;
   font-family: "Archivo Black", sans-serif;
-  padding: 20px;
 }
 
 .section-title h2::after {
@@ -406,7 +414,6 @@ section .container {
   display: inline-block;
   background: #d4b9ff;
   margin: 4px 10px;
-  padding: 20px
 }
 
 .section-title p {
@@ -417,7 +424,6 @@ section .container {
   text-transform: uppercase;
   font-family: "Archivo Black", sans-serif;
   color: #000;
-  padding: 20px;
 }
 
 /*----- About -----*/
@@ -450,7 +456,7 @@ section .container {
 }
 
 .about-me .content p:last-child {
-  margin-bottom: 20;
+  margin-bottom: 45;
 }
 
 /*--------------------------------------------------------------
