@@ -195,7 +195,7 @@ h6 {
 
 @media (max-width: 768px) {
   #header.header-top {
-    height: 60px; 
+    height: 80px; /* was 60px */
   }
 
   #header.header-top h1 {
@@ -245,7 +245,7 @@ h6 {
 .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .navbar a:before {
@@ -268,12 +268,16 @@ h6 {
   width: 25px;
 }
 
-.navbar a:hover,
+.navbar a:hover {
+  background: #36008d; 
+  color: #d4b9ff;
+}
+
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d4b9ff;
-  background: #36008d;
+  color: #ffffff;
+  background: #000000;
   padding: 5px 5px;
   transition: 0.3s;
 }
@@ -281,6 +285,7 @@ h6 {
 @media (max-width: 991px) {
   .navbar {
     margin: 20px 0 0 15px
+    font-size: 14px;
   }
 }
 
