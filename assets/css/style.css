@@ -148,7 +148,7 @@ h6 {
   }
 
   #header .social-links {
-    margin-top: 15px;
+    margin: 15px 0 0 15px;
     align-items: left;
   }
 
@@ -720,15 +720,15 @@ section .container {
   .credits {
     text-align: center;
     padding: 3px;
-    background: #d4b9ff;
+    background: #f3ecff;
   }
 }
 
 .credits a {
-  color: #ffffff; /* was 18d26e */
+  color: #36008d; /* was 18d26e */
   transition: 0.3s;
 }
 
-.credits a:hover {
+/* .credits a:hover {
   color: #fff;
-}
+} */
