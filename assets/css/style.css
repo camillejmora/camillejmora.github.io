@@ -137,15 +137,14 @@ h6 {
   /* Adjustments for mobile header styles */
   #header h1 {
     font-size: 36px;
-    margin: 20px 0 0 10; /* Reset margin */
-    text-align: left; /* Center align text */
+    margin: 20px 0 0 15px; 
+    text-align: left; 
   }
 
   #header h2 {
     font-size: 20px;
-    /* line-height: 30px; */
-    margin: 20px 0 0 10; /* Add top margin for spacing */
-    text-align: left; /* Center align text */
+    margin: 20px 0 0 15px; 
+    text-align: left; 
   }
 
   #header .social-links {
