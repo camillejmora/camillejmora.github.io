@@ -9,8 +9,8 @@
 /*----- General ------*/
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff !important; /* was black #040404 */
-  color: #000 !important; /* was white #fff */
+  background-color: #ffffff; /* was black #040404 */
+  color: #000; /* was white #fff */
   position: relative;
   background: transparent;
 }
@@ -279,9 +279,10 @@ h6 {
 }
 
 /* Mobile Navigation  */
+/*
 .mobile-nav-toggle {
   color: #000000;
-  /* background: transparent; */
+  /* background: transparent;
   font-size: 20px;
   cursor: pointer;
   display: none;
@@ -346,7 +347,8 @@ h6 {
 .navbar-mobile a:focus {
   font-size: 16px;
   position: relative;
-}
+} 
+*/
 
 /*----- Sections General -----*/
 section {
