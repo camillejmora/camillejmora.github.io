@@ -6,9 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/* ----- General ------*/
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff !important; /* was black #040404 */
@@ -54,9 +52,7 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/* ----- Header ------ */
 #header {
   background: #ffffff url("../img/bg4.jpeg") top right no-repeat; /*-- was black 040404 */ 
   background-size: cover;
@@ -85,7 +81,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #000000; /* was #fff */
+  color: #000000; 
   line-height: 1;
   display: inline-block;
 }
@@ -93,13 +89,13 @@ h6 {
 #header h2 {
   font-size: 36px;
   margin-top: 20px;
-  color: #000; /* was rgba(255, 255, 255, 0.8) */
+  color: #000;
 }
 
 #header h2 span {
-  color: #000; /* was #fff */
-  border-bottom: 2px solid #36008d; /* was 18d26e */
-  padding-bottom: 12px; /* was 6px */
+  color: #000; 
+  border-bottom: 2px solid #36008d;
+  padding-bottom: 12px; 
 }
 
 #header img {
@@ -117,8 +113,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.9); /* rgba(255, 255, 255, 0.1); */
-  color: #fff; /* was #fff */
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff; 
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -207,9 +203,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
+/*----- Navigation Menu ----- */
 /**
 * Desktop Navigation 
 */
@@ -244,7 +238,7 @@ h6 {
   font-family: "Archivo Black", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #000; /* was rgba(255, 255, 255, 0.7) */
+  color: #000; 
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -358,9 +352,7 @@ h6 {
   position: relative;
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/*----- Sections General -----*/
 section {
   overflow: hidden;
   position: absolute;
@@ -404,6 +396,7 @@ section .container {
   text-transform: uppercase;
   color: #000000;
   font-family: "Archivo Black", sans-serif;
+  padding: 20px;
 }
 
 .section-title h2::after {
@@ -422,12 +415,11 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Archivo Black", sans-serif;
-  color: #000; /* was #fff */
+  color: #000;
+  padding: 20px;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/*----- About -----*/
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -547,6 +539,7 @@ section .container {
   padding: 20px;
   background: #d4b9ff;
   transition: ease-in-out 0.3s;
+  color: #36008d;
 }
 
 .interests .icon-box i {
