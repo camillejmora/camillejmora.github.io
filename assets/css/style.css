@@ -125,7 +125,6 @@ h6 {
 #header .social-links a:hover {
   background: #36008d; /* was 18d26e */
   color: #d4b9ff;
-  transition: all 0.3s ease-in-out 0s;
 }
 
 @media (max-width: 992px) {
@@ -138,19 +137,20 @@ h6 {
   /* Adjustments for mobile header styles */
   #header h1 {
     font-size: 36px;
-    margin: 20px 0 0 0; /* Reset margin */
+    margin: 20px 0 0 10; /* Reset margin */
     text-align: left; /* Center align text */
   }
 
   #header h2 {
     font-size: 20px;
     /* line-height: 30px; */
-    margin: 20px 0 0 0; /* Add top margin for spacing */
+    margin: 20px 0 0 10; /* Add top margin for spacing */
     text-align: left; /* Center align text */
   }
 
   #header .social-links {
     margin-top: 15px;
+    align-items: left;
   }
 
   #header .container {
@@ -276,6 +276,7 @@ h6 {
   color: #d4b9ff;
   background: #36008d;
   padding: 5px 5px;
+  transition: 0.3s;
 }
 
 /* Mobile Navigation  */
