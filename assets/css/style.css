@@ -125,6 +125,7 @@ h6 {
 #header .social-links a:hover {
   background: #36008d; /* was 18d26e */
   color: #d4b9ff;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 @media (max-width: 992px) {
@@ -136,7 +137,7 @@ h6 {
 
   /* Adjustments for mobile header styles */
   #header h1 {
-    font-size: 10px;
+    font-size: 36px;
     margin: 20px 0 0 0; /* Reset margin */
     text-align: left; /* Center align text */
   }
@@ -155,7 +156,7 @@ h6 {
   #header .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
 } 
 /* Header Top */
@@ -255,7 +256,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #000000; /* was 18d26e */
+  background-color: #000000; 
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
