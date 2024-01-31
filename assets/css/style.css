@@ -54,7 +54,7 @@ h6 {
 
 /* ----- Header ------ */
 #header {
-  background: #ffffff url("../img/bg4.jpeg") top right no-repeat; /*-- was black 040404 */ 
+  background: url("../img/bg4.jpeg") top right no-repeat;
   background-size: cover;
   transition: ease-in-out 0.3s;
   position: relative;
