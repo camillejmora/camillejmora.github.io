@@ -36,12 +36,12 @@ body::before {
 }
 
 a {
-  color: #ff7530;
+  color: #36008d;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff7530;
+  color: #36008d;
   text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ h6 {
 
 #header h2 span {
   color: #000; /* was #fff */
-  border-bottom: 2px solid #ff7530; /* was 18d26e */
+  border-bottom: 2px solid #36008d; /* was 18d26e */
   padding-bottom: 12px; /* was 6px */
 }
 
@@ -149,7 +149,11 @@ h6 {
     flex-direction: column;
     align-items: center;
   }
-
+  
+  #header {
+    background: #ffffff url("../img/bg4.jpeg") top right no-repeat; 
+    background-size: cover
+  }
 } 
 /* Header Top */
 #header.header-top {
@@ -292,8 +296,6 @@ h6 {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
-    background: #ffffff url("../img/gg4.jpeg") top right no-repeat; 
-    background-size: cover
   }
 
   .navbar ul {
