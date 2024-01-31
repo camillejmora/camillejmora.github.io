@@ -127,7 +127,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #FFBF1A; /* was 18d26e */
+  background: #36008d; /* was 18d26e */
 }
 
 @media (max-width: 992px) {
@@ -204,7 +204,7 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
-  color:#000;
+  color:#000
 }
 
 .navbar ul {
@@ -268,7 +268,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #FFBF1A;
+  color: #36008d;
 }
 
 /**
@@ -303,8 +303,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: #fff;
-  color: #000;
+  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
