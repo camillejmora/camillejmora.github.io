@@ -710,9 +710,9 @@ section .container {
   left: 0;
   bottom: 0;
   padding: 12px;
-  text-align: right;
+  text-align: center;
   font-size: 8px;
-  color: #fff;
+  color: #36008d;
   z-index: 999999;
 }
 
