@@ -141,14 +141,14 @@ h6 {
   #header h1 {
     font-size: 36px;
     margin: 0; /* Reset margin */
-    text-align: center; /* Center align text */
+    text-align: left; /* Center align text */
   }
 
   #header h2 {
     font-size: 20px;
     line-height: 30px;
     margin: 20px 0 0 0; /* Add top margin for spacing */
-    text-align: center; /* Center align text */
+    text-align: left; /* Center align text */
   }
 
   #header .social-links {
