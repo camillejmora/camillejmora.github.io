@@ -150,14 +150,7 @@ h6 {
     align-items: center;
   }
 
-/* Media Query for Mobile Screens */
-@media (max-width: 991px) {
-  #header {
-    /* Change the background image for mobile screens */
-    background: #ffffff url("../img/bg4.jpeg") top right no-repeat; 
-    background-size: cover;
-  }
-
+} 
 /* Header Top */
 #header.header-top {
   height: 80px;
@@ -278,7 +271,6 @@ h6 {
 .navbar li:hover>a {
   color: #d4b9ff;
   background: #36008d;
-  padding-block: 10px;
 }
 
 /**
