@@ -140,12 +140,15 @@ h6 {
   /* Adjustments for mobile header styles */
   #header h1 {
     font-size: 36px;
-    position: left;
+    text-align: left;
+    margin: 0 20px;
   }
 
   #header h2 {
     font-size: 20px;
     line-height: 30px;
+    text-align: left;
+    margin: 0 20px;
   }
 
   #header .social-links {
