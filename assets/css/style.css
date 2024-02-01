@@ -204,7 +204,7 @@ h6 {
 
   #header.header-top h2 {
     font-size: 12px;
-    align: left
+    position: left;
   }
 }
 
