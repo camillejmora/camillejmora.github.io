@@ -195,7 +195,7 @@ h6 {
 
 @media (max-width: 768px) {
   #header.header-top {
-    height: 80px; /* was 60px */
+    height: 100px; /* was 60px */
   }
 
   #header.header-top h1 {
@@ -205,6 +205,13 @@ h6 {
   #header.header-top h2 {
     font-size: 12px;
     position: left;
+  }
+
+  #header .navbar {
+    display: flex;
+    flex-direction: column; /* Stack the navbar items */
+    align-items: flex-start; /* Align items to the start (left) */
+    padding-left: 20px; /* Adjust as needed to align with H1 and H2 */
   }
 }
 
@@ -292,7 +299,7 @@ h6 {
 }
 
 /* Mobile Navigation  */
-@media (max-width: 745px) {
+@media (max-width: 991px) {
   .navbar {
     display: flex;
     flex-direction: column; /* Stack the navbar items */
