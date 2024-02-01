@@ -205,6 +205,11 @@ h6 {
   #header.header-top h2 {
     font-size: 20px;
   }
+
+  #header .social-links {
+    margin: 10px 0 0 10px;
+    align-items: left;
+  }
 }
 
 /*----- Navigation Menu ----- */
@@ -318,7 +323,7 @@ h6 {
   }
 
   .navbar li+li {
-    margin-left: 20; /* Remove left margin between items */
+    margin-left: 0; /* Remove left margin between items */
   }
 }
 
