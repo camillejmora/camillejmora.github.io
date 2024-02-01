@@ -191,7 +191,7 @@ h6 {
 #header.header-top .navbar {
   margin: 0;
   position: sticky;
-}
+  }
 
 @media (max-width: 768px) {
   #header.header-top {
@@ -206,13 +206,7 @@ h6 {
     font-size: 12px;
     position: left;
   }
-
-  #header.header-top .navbar {
-  display: flex;
-  flex-direction: column; /* Stack the navbar items */
-  align-items: flex-start; /* Align items to the start (left) */
 }
-
 /*----- Navigation Menu ----- */
 /* Desktop Navigation */
 .navbar {
