@@ -295,18 +295,25 @@ h6 {
     padding-left: 20px; /* Adjust as needed to align with H1 and H2 */
   }
 
+  .navbar h1 {
+    font-size: 36px;
+  }
+
+  .navbar h2 {
+    font-size: 26px;
+  }
+
   .navbar ul {
-    width: 100%;
+    width: 50%;
   }
 
   .navbar li {
-    width: 100%; /* Full width for each navbar item */
+    width: 50%; /* Full width for each navbar item */
   }
 
   .navbar a {
     justify-content: flex-start; /* Align text to the start (left) */
     padding: 5px 5px; /* Add some vertical padding */
-    width: 100%; /* Full width */
   }
 
   .navbar li+li {
