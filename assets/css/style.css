@@ -199,6 +199,10 @@ h6 {
   }
 
   #header.header-top h1 {
+    font-size: 36px;
+  }
+
+  #header.header-top h2 {
     font-size: 20px;
   }
 }
@@ -295,29 +299,26 @@ h6 {
     padding-left: 20px; /* Adjust as needed to align with H1 and H2 */
   }
 
-  .navbar h1 {
-    font-size: 36px;
-  }
-
-  .navbar h2 {
-    font-size: 26px;
-  }
-
   .navbar ul {
-    width: 50%;
+    width: 100%;
   }
 
   .navbar li {
-    width: 50%; /* Full width for each navbar item */
+    width: auto; /* Adjust to fit the content */
+    margin-bottom: 5px; /* Add space between items */
   }
 
   .navbar a {
+    background-color: #000000; /* Set the background color */
+    color: #ffffff; /* Set the text color */
+    display: inline-block; /* Make the background fit the content */
+    width: auto; /* Adjust to fit the content */
     justify-content: flex-start; /* Align text to the start (left) */
     padding: 5px 5px; /* Add some vertical padding */
   }
 
   .navbar li+li {
-    margin-left: 0; /* Remove left margin between items */
+    margin-left: 20; /* Remove left margin between items */
   }
 }
 
