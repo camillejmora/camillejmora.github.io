@@ -129,7 +129,6 @@ h6 {
 
 @media (max-width: 992px) {
   #header {
-    /* Change the background image for mobile screens */
     background: url("../img/bg5.jpeg") top right no-repeat;
     background-size: cover;
   }
@@ -204,11 +203,6 @@ h6 {
 
   #header.header-top h2 {
     font-size: 20px;
-  }
-
-  #header .social-links {
-    margin: 10px 0 0 10px;
-    align-items: left;
   }
 }
 
@@ -324,6 +318,12 @@ h6 {
 
   .navbar li+li {
     margin-left: 0; /* Remove left margin between items */
+  }
+
+  .navbar .social-links {
+    justify-content: flex-start; /* Align text to the start (left) */
+    size: 10px;
+    margin: 15px, 0 0 0; 
   }
 }
 
