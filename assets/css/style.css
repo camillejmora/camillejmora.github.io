@@ -274,19 +274,43 @@ h6 {
 }
 
 .navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
+.navbar .active:focus {
   color: #ffffff;
   background: #000000;
+}
+
+.navbar li:hover>a {
+  background: #36008d; 
+  color: #d4b9ff;
   padding: 5px 5px;
   transition: 0.3s;
 }
 
+/* Mobile Navigation  */
 @media (max-width: 745px) {
   .navbar {
-    font-size: 12px;
-    position: relative;
-    align-items: left;
+    display: flex;
+    flex-direction: column; /* Stack the navbar items */
+    align-items: flex-start; /* Align items to the start (left) */
+    padding-left: 20px; /* Adjust as needed to align with H1 and H2 */
+  }
+
+  .navbar ul {
+    width: 100%;
+  }
+
+  .navbar li {
+    width: 100%; /* Full width for each navbar item */
+  }
+
+  .navbar a {
+    justify-content: flex-start; /* Align text to the start (left) */
+    padding: 10px 0; /* Add some vertical padding */
+    width: 100%; /* Full width */
+  }
+
+  .navbar li+li {
+    margin-left: 0; /* Remove left margin between items */
   }
 }
 
