@@ -52,6 +52,14 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+/* Bootstrap 5 and late Bootstrap 4 */
+@media (max-width: 575.98px) {
+  .container, .container-fluid, .row, [class*="col-"] {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
 /* ----- Header ------ */
 #header {
   background: url("../img/bg6.jpeg") top right no-repeat;
