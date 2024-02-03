@@ -391,15 +391,14 @@ section .container {
   section.section-show {
     top: 80px;
   }
-  
 }
 
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
-  padding: 30px;
+  padding: 0px;
   line-height: 1px;
-  margin: 0 0 20px 0;
+  margin: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #000000;
@@ -416,13 +415,12 @@ section .container {
 }
 
 .section-title p {
-  margin: 0;
   margin: -15px 0 15px 0;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Archivo Black", sans-serif;
-  color: #000;
+  color: #000000;
 }
 
 /*----- About -----*/
