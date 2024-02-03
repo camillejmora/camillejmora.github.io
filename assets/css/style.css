@@ -54,7 +54,7 @@ h6 {
 
 /* ----- Header ------ */
 #header {
-  background: url("../img/bg4.jpeg") top right no-repeat;
+  background: url("../img/bg6.jpeg") top right no-repeat;
   background-size: cover;
   transition: ease-in-out 0.3s;
   position: relative;
@@ -91,9 +91,9 @@ h6 {
 }
 
 #header h2 {
+  color: #000;
   font-size: 36px;
   margin-top: 20px;
-  color: #000;
 }
 
 #header h2 span {
@@ -117,7 +117,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.9);
+  background: #000000;
   color: #fff; 
   line-height: 1;
   margin-right: 8px;
@@ -133,7 +133,7 @@ h6 {
 
 @media (max-width: 992px) {
   #header {
-    background: url("../img/bg5.jpeg") top right no-repeat;
+    background: url("../img/bg6.jpeg") top right no-repeat;
     background-size: cover;
   }
 
@@ -209,7 +209,7 @@ h6 {
   }
 
   #header.header-top h2 {
-    font-size: 12px;
+    font-size: 14px;
     position: left;
   }
 }
@@ -278,11 +278,6 @@ h6 {
   width: 25px;
 }
 
-.navbar a:hover {
-  background: #36008d; 
-  color: #d4b9ff;
-}
-
 .navbar .active,
 .navbar .active:focus {
   color: #ffffff;
@@ -292,11 +287,9 @@ h6 {
 .navbar li:hover>a {
   background: #36008d; 
   color: #d4b9ff;
-  padding: 5px 5px;
+  padding: 2px 2px;
   transition: 0.3s;
 }
-
-
 
 /* Mobile Navigation  */
 @media (max-width: 991px) {
@@ -323,12 +316,37 @@ h6 {
     background-color: #000000; /* Set the background color */
     color: #ffffff; /* Set the text color */
     display: block; /* Make the link take the full width */
-    padding: 5px; /* Add some padding */
+    padding: 0px 1px; /* Add some padding */
     text-align: left; /* Align text to the left */
   }
 
   .navbar li+li {
     margin-left: 0; /* Remove left margin between items */
+  }
+
+  .navbar a:hover:before,
+  .navbar li:hover>a:before,
+  .navbar .active:before {
+    visibility: visible;
+    width: 14px;
+  }
+
+  .navbar a:hover {
+    background: #36008d; 
+    color: #d4b9ff;
+  }
+
+  .navbar .active {
+    background: #36008d; 
+    color: #d4b9ff;
+    padding: 2px 2px;
+  }
+
+  .navbar li:hover>a {
+    background: #36008d; 
+    color: #d4b9ff;
+    padding: 2px 2px;
+    transition: 0.3s;
   }
 }
 
