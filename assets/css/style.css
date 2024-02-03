@@ -190,6 +190,7 @@ h6 {
 #header.header-top .container {
   display: flex;
   justify-content: space-between;
+  padding: 0px;
 
 }
 
@@ -454,6 +455,29 @@ section .container {
   margin-bottom: 20;
 }
 
+/* unvisited link */
+.about-me a:link {
+  color: #8c4223;
+  font-family: "Archivo Black", sans-serif;
+}
+
+/* visited link */
+.about-me a:visited {
+  color: #8c4223;
+  font: "Archivo Black", sans-serif;
+}
+
+/* mouse over link */
+.about-me a:hover {
+  color: #8c4223;
+  background: #fbc0ab;
+}
+
+/* selected link */
+.about-me a:active {
+  color: #8c4223;
+  background: #fbc0ab;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
