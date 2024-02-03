@@ -66,6 +66,10 @@ h6 {
   overflow-y: auto;
 }
 
+.header-max {
+  max-width: 700px; 
+}
+
 #header * {
   transition: ease-in-out 0.3s;
 }
@@ -185,7 +189,8 @@ h6 {
 
 #header.header-top .container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+
 }
 
 #header.header-top .navbar {
@@ -200,6 +205,7 @@ h6 {
 
   #header.header-top h1 {
     font-size: 20px;
+    padding-bottom: 10px; /* was 0 */
   }
 
   #header.header-top h2 {
@@ -290,13 +296,16 @@ h6 {
   transition: 0.3s;
 }
 
+
+
 /* Mobile Navigation  */
 @media (max-width: 991px) {
   .navbar {
     display: flex;
     flex-direction: column; /* Stack the navbar items */
     align-items: flex-start; /* Align items to the start (left) */
-    padding-left: 20px; /* Adjust as needed to align with H1 and H2 */
+    padding-left: 12px; /* Adjust as needed to align with H1 and H2 */
+    padding-bottom: 20px; /* Add space at the bottom */
   }
 
   .navbar ul {
@@ -306,7 +315,7 @@ h6 {
 
   .navbar li {
     width: 100%; /* Full width for each navbar item */
-    margin-bottom: 5px; /* Add space between items */
+    margin-right: 5px; /* Add space between items */
     text-align: left; /* Align text to the left */
   }
 
