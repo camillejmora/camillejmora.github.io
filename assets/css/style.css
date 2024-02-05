@@ -64,7 +64,6 @@ h6 {
 #header {
   background: url("../img/bg6.jpeg") top right no-repeat;
   background-size: cover;
- /* transition: ease-in-out 0.3s; */
   position: relative;
   height: 100vh;
   display: flex;
@@ -396,7 +395,6 @@ section .container {
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
-  padding: 0px;
   line-height: 1px;
   margin: 0px;
   letter-spacing: 2px;
@@ -424,12 +422,12 @@ section .container {
 }
 
 @media (max-width: 576px) {
-  section-title h2 {
-    margin: 15px 0 0 0;
+  .section-title h2 {
+    margin: 0px 0px 0px 15px ;
   }
 
-  section-title p {
-    margin: 15px 0 0 0;
+  .section-title p {
+    margin: 0px 0px 0px 15px;
   }
 }
 
